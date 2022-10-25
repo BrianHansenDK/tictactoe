@@ -58,6 +58,7 @@ const App = () => {
         handleSquareClick={handleSquareClick}
         winningSquares={winningSquares}
       />
+      <h2 style={{ fontWeight: 'normal' }}>Current game history</h2>
       <button
         type="button"
         onClick={onNewGame}
