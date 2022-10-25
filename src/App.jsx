@@ -67,6 +67,7 @@ const App = () => {
         Start a new game
       </button>
       <History history={history} moveTo={moveTo} currentMove={currentMove} />
+      <h3 className="creator-txt">This App is made by Noaly</h3>
       <div className="bg-balls"></div>
     </div>
   );
