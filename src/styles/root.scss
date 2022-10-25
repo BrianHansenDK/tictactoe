@@ -82,7 +82,7 @@ button {
 .btn-reset {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #333;
+  color: $blue;
   background-color: whitesmoke;
   border-radius: 15px;
   padding: 12px 18px;
@@ -90,8 +90,8 @@ button {
   transition: all 0.2s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
   &.active {
-    color: $blue;
-    box-shadow: none;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.25);
+    transform: scale3d(1.1, 1.1, 1);
   }
   &:hover {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
